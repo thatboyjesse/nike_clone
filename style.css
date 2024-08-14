@@ -1,9 +1,24 @@
+@font-face {
+    font-family: mainfont;
+    src: url(/Fonts/HelveticaNowTextMedium.woff2);
+}
+@font-face {
+    font-family: futuramain;
+    src: url(/Fonts/Nike-Futura-ot-300.woff2);
+}
+@font-face {
+    font-family: futura_alt;
+    src: url(/Fonts/Nike-Futura.woff2);
+}
 *{
     margin: 0;
     padding: 0;
+    color: #111;
 }
 body{
     box-sizing: border-box;
+    font-family: mainfont;
+    max-width: 100%;
 }
 .flex{
     display: flex;
@@ -19,3 +34,127 @@ body{
 .grid{
     display: grid;
 }
+.width{
+    width: 92.88%;
+    margin: 0 auto;
+}
+.bg_alt{
+    background: #f5f5f5;
+}
+.text_br{
+    border-right: .7px solid #111;
+    padding: 0 12px !important;
+}
+.up_nav{
+    justify-content: space-between;
+    font-size: 12px;
+}
+.fith{
+    height: 100%;
+}
+.up_nav_img{
+    gap: 24px;
+    padding: 6px 0;
+}
+.up_nav_img img{
+    padding: 3px;
+}
+.up_nav_text{
+    padding: 0 8px 0 12px;
+    line-height: 12px;
+    font-weight: 500;
+}
+.logo{
+    padding: 15.5px 0;
+    width: 30% !important;
+}
+.nav_text{
+    gap: 24px;
+    text-align: center;
+    font-size: 1rem;
+    padding: 0 0 0 12px;
+    width: 40%;
+}
+.nav_right{
+    justify-content: end;
+    padding: 0 0 0 8px;
+    width: 30%;
+    gap: 22px;
+}
+.circle{
+    border-radius: 50%;
+}
+.circle_h{
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+}
+.mag img{
+    width: 20px;
+    padding: 8px;
+}
+.search{
+    width: 125px;
+    text-align: left;
+    border: none;
+    background: #f5f5f5;
+    height: 36px;
+    border-top-right-radius: 18px;
+    border-bottom-right-radius: 18px;
+    color: #E5E5E5;
+    font-size: 17px;
+}
+.fix{
+    background: #f5f5f5;
+}
+.img_nav{
+    width: 20px;
+    padding: 8px;
+    margin-left: 2px;
+}
+.footer{
+    border-top: .9px solid #E5E5E5;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    padding: 65px 0;
+    gap: 12px;
+}
+.flex_d{
+    display: flex;
+    flex-direction: column;
+}
+.foot_col p{
+    font-size: 14px;
+    color: #707072;
+}
+.bold{
+    color: #111 !important;
+    margin-bottom: 24px;
+}
+.foot_col{
+    text-align: left;
+    gap: 12px;
+}
+.foot_end img{
+    width: 14px;
+    height: 14px;
+}
+.foot_end div{
+    gap: 5px;
+    text-align: right !important;
+    justify-content: end;
+}
+.footer_img2{
+    height: 22px !important;
+    padding: 2px !important;
+}
+.foot_bottom_img{
+    height: 13px;
+    padding: 7px;
+}
+.foot_bottom p{
+    color: #707072;
+    font-size: 14px;
+}
+.foot_bottom{
+    gap: 20px;
+}
+
