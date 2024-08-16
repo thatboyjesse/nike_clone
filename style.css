@@ -111,6 +111,9 @@ body{
     padding: 8px;
     margin-left: 2px;
 }
+footer{
+    margin-bottom: 120px;
+}
 .footer{
     border-top: .9px solid #E5E5E5;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
@@ -157,4 +160,135 @@ body{
 .foot_bottom{
     gap: 20px;
 }
+/* nav and footer end here */
+.sec1_img{
+    width: 100%;
+}
+.sec1_text{
+    text-align: center;
+    padding-top: 20px;
+}
+.sec1_text h1{
+    font-family: futuramain;
+    font-size: 5.25rem;
+    color: #111;
+    text-transform: uppercase;
+}
+.sec1_text p{
+    font-size: 16px;
+    font-weight: 400;
 
+}
+.btn1{
+    padding: 5px 15px;
+    border-radius: 30px;
+    background-color: #111;
+    width: fit-content;
+    margin: 30px auto;
+    color: white;
+    cursor: pointer;
+    transition: .3s;
+}
+.btn1:hover{
+    background-color: #707072;
+}
+.rel{
+    position: relative;
+}
+.abs{
+    position: absolute;
+    z-index: 1;
+}
+.sec2{
+    grid-template-columns: 1fr 1fr;
+    gap: none;
+}
+.sec2 img{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.m{
+    margin: 48px;
+    bottom: 0;
+    left: 0;
+}
+.sec2 p{
+    color: white;
+    font-size: 16px;
+    padding: 0 0 6px;
+}
+.sec2 h4{
+    font-size: 26px;
+    color: white;
+    font-weight: 400;
+    letter-spacing: -1px;
+    word-spacing: -2px;
+}
+.btn2{
+    padding: 5px 15px;
+    border-radius: 30px;
+    background-color: #fff;
+    width: fit-content;
+    margin: 20px 0;
+    color: #111;
+    cursor: pointer;
+    transition: .3s;
+}
+.sec3_text{
+    text-align: center;
+    padding-top: 80px;
+}
+.sec3_text h1{
+    font-family: futura_alt;
+    font-size: 3rem;
+    color: #111;
+    text-transform: uppercase;
+}
+.m1{
+    margin: 20px auto !important;
+}
+.sec3b img{
+    width: 100%;
+    margin-top: 20px;
+}
+.sec3b{
+    text-align: left;
+}
+.col4{
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.sec3c img{
+    width: 100%;
+}
+.mt{
+    margin-top: 60px;
+}
+.sec3c{
+    gap: 20px;
+    margin: 0 10px;
+}
+.width2{
+    width: 68.20%;
+    margin: 0 auto;
+}
+.col{
+    gap: 16px;
+}
+.col p{
+    font-size: 20px;
+    text-align: left;   
+}
+.m2{
+    margin-bottom: 7px;
+} 
+
+.child{
+    color: #707072;
+    font-size: 16px !important;
+}
+.pre_footer{
+    margin: 100px 0;
+    width: 100%;
+}
