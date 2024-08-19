@@ -14,7 +14,9 @@
     margin: 0;
     padding: 0;
     color: #111;
+    text-decoration: none;
 }
+
 body{
     box-sizing: border-box;
     font-family: mainfont;
@@ -170,7 +172,7 @@ footer{
 }
 .sec1_text h1{
     font-family: futuramain;
-    font-size: 5.25rem;
+    font-size: 5.25em;
     color: #111;
     text-transform: uppercase;
 }
@@ -291,4 +293,39 @@ footer{
 .pre_footer{
     margin: 100px 0;
     width: 100%;
+}
+.none{
+    display: none;
+}
+@media screen and (max-width: 560px){
+    .none{
+        display: block;
+    }
+    .block{
+        display: none;
+    }
+    .mobile_header{
+        justify-content: space-between;
+        padding: 0px 24px;
+        display: flex;
+        align-items: center;
+    }
+    .mob img{
+        width: 24px;
+        padding: 8px;
+
+    }
+    .smallimg{
+        width: 20px !important;
+    }
+    .sec1_text h1{
+        font-size: 40px;
+        line-height: 36px;
+    }
+    .sec1_text h1, p{
+        margin-bottom: 20px;
+    }
+    .btn1{
+        margin: 60px auto 20px;
+    }
 }
